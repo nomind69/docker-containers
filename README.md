@@ -3,3 +3,5 @@
 
 A collection of docker-compose.yml files that I use to selfhost my applications.
 Feel free to use these as you see fit!
+
+[Bitwarden](Bitwarden/) - Password manager

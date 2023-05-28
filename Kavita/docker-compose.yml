@@ -1,0 +1,16 @@
+version: '3'
+services:
+   kavita:
+       image: kizaing/kavita:latest
+       container_name: kavita
+       volumes:
+           - ./strip:/strip
+           - ./fictie:/fictie
+           - ./studie:/studie
+           # - ./add_your_own_directories:/some_directory
+           - ./config:/kavita/config
+       ports:
+           - "5000:5000"
+       restart: unless-stopped
+       environment:
+           - TZ=Europe/Amsterdam

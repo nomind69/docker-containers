@@ -1,0 +1,17 @@
+version: "3"
+services:
+  pi.alert:
+     container_name: Pi.Alert
+     healthcheck:
+      test: curl -f http://localhost:17811/ || exit 1
+     security_opt:
+      - no-new-privileges:true
+     environment:
+      - TZ=Europe/Amsterdam
+      - PORT=17811
+     network_mode: "host"
+     restart: unless-stopped
+     image: jokobsk/pi.alert:latest
+networks:
+  host:
+    external: true

@@ -11,7 +11,7 @@ Feel free to use these as you see fit!
 * [DockCheck](DockCheck/) - Shows which docker containers have updates
 * [Dokuwiki](Dokuwiki/) - Wiki, based on textfiles, no DB needed
 * [Dozle](Dozle/) - Inspect logfiles from your docker containers
-* [Flame Dashboard](Flame Dashboard/) - Nice looking dashboard for the services you run. In-app editing.
+* [Flame Dashboard](Flame%20Dashboard)/) - Nice looking dashboard for the services you run. In-app editing.
 * [Home Assistent](Home Assistent/) - Home automation hub
 * [Invidious](Invidious/) - Youtube frontend that filters ads and offers downloads
 * [Kanboard](Kanboard/) - Kanban application

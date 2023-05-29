@@ -4,6 +4,16 @@
 A collection of docker-compose.yml files that I use to selfhost my applications.
 Feel free to use these as you see fit!
 
+Welcome to my GitHub repository! Here you will find an exquisite collection of docker-compose.yml files that can be used by anyone who wants to automate the process of spinning up some awesome Docker images. 
+
+Before we dive in, I must remind you that this repository, like most things in life, comes with no guarantees. Use these files at your own risk, and if anything goes wrong, well... don't say I didn't warn you. 
+
+Most, if not all, of the docker-compose.yml files you'll find here were written by other people who were kind enough to share them with me. I only edited them for personal fit. I am grateful for their contributions to the open-source community, and want to make sure credit is given where credit is due. 
+
+The same applies for the docker images being used.
+
+Have fun exploring :-D
+
 # Services
 
 * [Bitwarden](Bitwarden/) - Password manager

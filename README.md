@@ -35,4 +35,4 @@ Have fun exploring :-D
 * [Trilium Notes](Trilium%20Notes/) - Markdown Notes, lots of capablities
 * [Unifi Controller](Unifi%20Controller/) Controller for Unifi hardware
 * [VsCode](VsCode/) - Webbased IDE
-* [Wireguard Easy VPN](Wireguard%20Easy%20VPN/) Webbased GUI for administration of Wireguard VPN connections
+* [Wireguard Easy VPN](Wireguard%20Easy%20VPN/) - Webbased GUI for administration of Wireguard VPN connections

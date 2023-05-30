@@ -1,7 +1,7 @@
 version: '2'
 services:
  unifi-controller:
-   container_name: unifi.controller-5.5.19
+   container_name: unifi.controller
    image: jacobalberty/unifi
    restart: no
    volumes:

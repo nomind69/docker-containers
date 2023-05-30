@@ -1,10 +1,9 @@
 version: '3'
 
 services:
- portainer:
-   #image: portainer/portainer-ce:latest
+ nginx:
    image: 'jc21/nginx-proxy-manager:2.9.22' # At this moment I'm using the 2.9.22 image because the latest did not work.
-   container_name: portainer
+   container_name: nginx_proxy_manager
    restart: unless-stopped
    security_opt:
      - no-new-privileges:true
